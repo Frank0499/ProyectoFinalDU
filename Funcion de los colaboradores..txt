@@ -1,0 +1,9 @@
+Funcion de los colaboradores.
+
+HTML:Valerie Lantigua y Franklyn Hidalgo.
+CSS  y Diseño de la pagina: Franklyn Hidalgo.
+Base de datos y scripts: Valerie Latigua.
+Evaluacion de Heuristicas y funcionalidad: Franklyn Hidalgo
+Video: Valerie Lantigua.
+
+Nota: A pesar de que cada uno tuvo algo en especifico que realizar, ambos estuvimos involucrados dando opinion y coreccion en los procesos de elaboracion de cada quien involucrandonos independientemente en todo el proceso del proyecto.

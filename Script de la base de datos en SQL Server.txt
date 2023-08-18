@@ -1,0 +1,9 @@
+Script de la base de datos en SQL Server
+
+CREATE DATABASE Utesa_db;
+CREATE TABLE Profesores (
+    id INT PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    correo VARCHAR(100) NOT NULL,
+    telefono VARCHAR(20) NOT NULL,
+    rutaFoto VARCHAR(255)
