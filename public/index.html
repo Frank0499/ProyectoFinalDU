@@ -1,0 +1,49 @@
+<!DOCTYPE html> 
+<html lang="es"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="styles.css"> 
+    <title>Registro de Profesores - UTESA</title> 
+</head> 
+<body> 
+    <div class="container"> 
+        <div class="registro"> 
+            <div class="info-child"> 
+                <h1>Registro de Profesores  UTESA</h1> 
+                <div class="form-info-child"> 
+                    <form class="form" id="registro-form" action="/registrar" method="post">
+                        <label for="foto">Foto:<input class="foto-bottom" type="file" id="foto" name="foto" accept="image/*" required></label> 
+                         
+                        <label for="id">ID: <input type="text" id="id" name="id" required></label> 
+                         
+                        <label for="nombre">Nombre: <input type="text" id="nombre" name="nombre" required></label> 
+                         
+                        <label for="correo">Correo: <input type="email" id="correo" name="correo" required> </label> 
+                       
+                        <label for="telefono">Teléfono: <input type="tel" id="telefono" name="telefono" required> </label> 
+                         
+                        <button type="submit">Registrar</button> 
+                    </form> 
+                </div> 
+            </div> 
+        </div> 
+        <div id="mensaje" class="mensaje"></div>
+         <div class="consulta" 
+             id="consulta"> 
+            <div class="info-child2"> 
+                <h2>Consulta de Profesor por ID</h2>
+                <form class="form" id="consulta-form">
+                <label  for="consulta-id">ID:  
+                <input type="text" id="consulta-id" name="consulta-id"> 
+                </label> 
+                </form>
+                <button id="consulta-btn">Consultar</button>
+            </div> 
+            <div id="resultado"></div> 
+        </div>
+    </div> 
+ 
+    <script src="script.js"></script> 
+</body> 
+</html>

@@ -1,0 +1,108 @@
+* {    padding: 0;
+    margin: 0;    box-sizing: border-box;
+    font-family: 'Mongolian Baiti', sans-serif;}
+body {
+    display:flex;    align-items:center;
+    justify-content:center;    height: 100vh;
+    background-image: url(imagen/proyecto.jpg);    background-size: cover;
+}
+.container {    max-width:900px;
+    height:500px;    display: flex;
+    box-shadow: 0 5px 7px #000001;    border-radius: 15px;
+    transition: all 1s ease;    margin: 10px;
+}
+.registro {    width: 60%;
+    display: flex;    justify-content:center;
+    align-items: center;    text-align: center;
+    background-color: #2eb304e6;    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.info-child {    width: 100%;
+    padding: 0 30PX;}
+.info-child h1{
+    font-size: 2.5rem;    color:aliceblue;
+}
+.info-child p {     margin: 15px 0;
+     color: aliceblue; }
+.info-child input{
+}
+.consulta {
+    width: 40%;    display: flex;
+    align-items: center;    justify-content: center;
+    text-align: center;    background-color: #d1db04dc;
+    border-top-right-radius: 15px;    border-bottom-right-radius: 15px;
+}
+
+.info-child button {
+    background-color: transparent;    outline: none;
+    border: solid 2px #57fb02;
+    border-radius: 20px;    padding: 10px 15px;
+    color: #ffffff;    cursor: pointer;
+    transition: background-color .3s ease;}
+.info-child button:hover {
+        background-color: #57fb02;        border: none;
+        color: #ffffff;        box-shadow: 0 2px 5px #000001;
+}
+.form{    margin: 18px 0 0 0;
+}
+    .form label {
+        display: flex;        align-items: center;
+        margin-bottom: 15px;        border-radius: 20px;
+        padding: 0 10px;        background-color: transparent;
+        color: #ffffff;    }
+.form label input {
+        width: 100%;        padding: 10px;
+        background-color: transparent;        border: none;
+        outline:none;        border-radius: 20px;
+        color: #ffffff; }
+.form label:hover {
+            background-color: transparent;            border: none;
+            color: #ffffff;            box-shadow: 0 2px 5px #000001;
+}/*div de consulta*/
+    .info-child2 {
+        width: 100%;        padding: 0 30PX;
+    }
+.info-child2 h2 {        font-size: 2.5rem;
+        color: aliceblue; }
+.info-child2 label {
+        margin: 18px 0 0 0;        display: flex;
+        align-items: center;        margin-bottom: 15px;
+        border-radius: 20px;        padding: 0 10px;
+        background-color: transparent;
+        color: #ffffff; }
+.info-child2 input {
+    width: 100%;    padding: 10px;
+    background-color: transparent;    border: none;
+    outline: none;    border-radius: 20px;
+    color: #ffffff;}
+.info-child2 label:hover {
+    background-color: transparent;    border: none;
+    color: #ffffff;    box-shadow: 0 2px 5px #000001;
+}
+.info-child2 button {
+    background-color: transparent;    outline: none;
+    border: solid 2px #f3ff00;    border-radius: 20px;
+    padding:10px 15px;    color:#ffffff;
+    cursor: pointer;    transition: background-color .3s ease;
+}
+.info-child2 button:hover {        background-color: #f3ff00;
+        border: none;        color: #ffffff;
+        box-shadow: 0 2px 5px #000001;
+    }
+.mensaje {
+        display: none;
+        margin-top: 10px;
+        padding: 10px;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+    
+.success {
+        color: green;
+        background-color: #c2f0c2;
+    }
+    
+.error {
+        color: red;
+        background-color: #ffb3b3;
+    }
